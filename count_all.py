@@ -7,4 +7,12 @@ def count_all(txt):
     Returns:
         dict: dictionary with letters and digits
     """
-    return
+    h=0
+    s=0
+    for i in txt:
+        if i.isdigit():
+            s+=1
+        if i.isalpha():
+            h+=1
+    return {"LETTERS":h,"DIGITS":s}
+print(count_all("Hel22lo World"))
