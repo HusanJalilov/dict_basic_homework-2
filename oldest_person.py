@@ -6,7 +6,7 @@ def oldest(people:dict):
     Returns:
         str: the name of the oldest person
     # """
-    return max(people)
+    return str(max(people))
     # s=[]
     # for i in people:
     #     s.append(people[i])
