@@ -5,5 +5,11 @@ def oldest(people:dict):
         people(dict): parameter
     Returns:
         str: the name of the oldest person
-    """
-    return
+    # """
+    return max(people)
+    # s=[]
+    # for i in people:
+    #     s.append(people[i])
+    #     # print(j)
+    # return s
+print(oldest({"Javohir": 22, "Sharof": 23, "Tolib": 34, "Rustam": 16}))
