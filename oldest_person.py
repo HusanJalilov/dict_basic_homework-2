@@ -14,4 +14,5 @@ def oldest(people:dict):
 
     
     return n[index]
+    
 print(oldest({"Javohir": 22, "Sharof": 23, "Tolib": 34, "Rustam": 16}))
