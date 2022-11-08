@@ -8,11 +8,11 @@ def oldest(people:dict):
         str: the name of the oldest person
     """
     n = list(people)
-    age = list(people.values())
-    maximum = max(age)
-    index = age.index(maximum)
+    as1 = list(people.values())
+    mx = max(as1)
+    ix = as1.index(mx)
 
     
-    return str(max(people))
-
+    return n[ix]
+    
 print(oldest({"Javohir": 22, "Sharof": 23, "Tolib": 34, "Rustam": 16}))
